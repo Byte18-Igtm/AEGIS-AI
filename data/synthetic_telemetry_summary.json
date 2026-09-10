@@ -1,0 +1,30 @@
+{
+  "rows": 108864,
+  "servers": 18,
+  "days": 21,
+  "sample_interval_min": 5,
+  "time_range": [
+    "2025-06-02 00:00:00",
+    "2025-06-22 23:55:00"
+  ],
+  "incident_rows": 14361,
+  "incident_row_fraction": 0.1319,
+  "incident_windows_per_type": {
+    "cpu_overload": 161,
+    "memory_pressure": 134,
+    "traffic_spike": 134,
+    "latency_degradation": 134,
+    "error_burst": 137
+  },
+  "incident_windows_by_severity": {
+    "medium": 200,
+    "low": 249,
+    "high": 251
+  },
+  "cpu_baseline_mean_range_pct": [
+    12.0,
+    42.0
+  ],
+  "cpu_grounding": "Azure Public Dataset (Cortez et al., SOSP 2017)",
+  "borderline_fraction": 0.25
+}
