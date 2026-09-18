@@ -10,6 +10,8 @@ explanation built from the simulated numbers.
 
 It is a **decision-support prototype only**. It never executes a response action.
 
+🔗 Live demo: https://aegis-ai-3qvjn4y7hbykmmp4wy56ug.streamlit.app/
+
 ---
 
 ## Architecture
